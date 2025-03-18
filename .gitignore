@@ -1,0 +1,42 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+*.venv
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Django stuff
+*.log
+db.sqlite3
+db.sqlite3-journal
+media/
+staticfiles/
+
+# Local settings
+.env
+.env.* 
+config/settings_local.py
+
+# IDE/editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Migrations (optional: keep initial migrations)
+**/migrations/__pycache__/
+**/migrations/*.pyc
+**/migrations/*.pyo
+
+# Python egg & packaging
+*.egg-info/
+dist/
+build/
+
+# MacOS files
+.DS_Store
